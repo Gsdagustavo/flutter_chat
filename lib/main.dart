@@ -16,14 +16,14 @@ class MyApp extends StatelessWidget {
       routes: {
         '/':(_) => const HomePage()
       }
-    );data
+    );
   }
 }
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
-  @override
+  @override 
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
