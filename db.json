@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Gustavo Daniel",
+      "profileImage": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": 2,
+      "name": "Ana Paula",
+      "profileImage": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 3,
+      "name": "Carlos Eduardo",
+      "profileImage": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": 4,
+      "name": "Fernanda Lima",
+      "profileImage": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": 5,
+      "name": "João Vitor",
+      "profileImage": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": 6,
+      "name": "Juliana Costa",
+      "profileImage": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+      "id": 7,
+      "name": "Felipe Souza",
+      "profileImage": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+      "id": 8,
+      "name": "Mariana Silva",
+      "profileImage": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": 9,
+      "name": "Lucas Oliveira",
+      "profileImage": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": 10,
+      "name": "Ricardo Alves",
+      "profileImage": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+      "id": 11,
+      "name": "Patrícia Martins",
+      "profileImage": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+      "id": 12,
+      "name": "Roberto Pereira",
+      "profileImage": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": 13,
+      "name": "Cláudia Rocha",
+      "profileImage": "https://i.pravatar.cc/150?img=13"
+    },
+    {
+      "id": 14,
+      "name": "Rafael Dias",
+      "profileImage": "https://i.pravatar.cc/150?img=14"
+    },
+    {
+      "id": 15,
+      "name": "Isabela Mendes",
+      "profileImage": "https://i.pravatar.cc/150?img=15"
+    },
+    {
+      "id": 16,
+      "name": "Luís Felipe",
+      "profileImage": "https://i.pravatar.cc/150?img=16"
+    },
+    {
+      "id": 17,
+      "name": "Roberta Fernandes",
+      "profileImage": "https://i.pravatar.cc/150?img=17"
+    },
+    {
+      "id": 18,
+      "name": "Vinícius Costa",
+      "profileImage": "https://i.pravatar.cc/150?img=18"
+    },
+    {
+      "id": 19,
+      "name": "Tatiane Lima",
+      "profileImage": "https://i.pravatar.cc/150?img=19"
+    },
+    {
+      "id": 20,
+      "name": "Guilherme Santos",
+      "profileImage": "https://i.pravatar.cc/150?img=20"
+    }
+  ]
+}
