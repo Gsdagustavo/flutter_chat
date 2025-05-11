@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_chat/widgets/user_card.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/user_provider.dart';
@@ -27,26 +28,7 @@ class UserList extends StatelessWidget {
 
           itemBuilder: (context, index) {
             final user = users[index];
-
-            /// listtile containing all users
-            return ListTile(
-              leading: Image.network(
-                user.profileImage,
-                loadingBuilder: (context, child, loadingProgress) {
-                  if (loadingProgress == null) return child;
-                  return const CircularProgressIndicator();
-                },
-              ),
-
-              /// user name
-              title: Text(user.name),
-
-              /// user id
-              subtitle: Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [Text(user.id.toString())],
-              ),
-            );
+            return UserCard(user: user);
           },
         );
       },
