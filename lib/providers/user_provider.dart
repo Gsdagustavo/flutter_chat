@@ -32,8 +32,7 @@ class UserProvider with ChangeNotifier {
         /// iterates through all users in the [response.body]
         for (final userJson in resp) {
           if (userJson is Map<String, dynamic>) {
-            final user = User.fromJson(userJson);
-            _users.add(user);
+            _users.add(User.fromJson(userJson));
           } else {
             throw Exception('Invalid user format');
           }
