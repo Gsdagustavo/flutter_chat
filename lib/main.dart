@@ -35,31 +35,41 @@ class HomePage extends StatelessWidget {
         children: [
 
           Expanded(
-            child: FutureBuilder(
-              future: UserController.getUsers(getUsersUrl),
-              builder: (context, snapshot) {
-                if (snapshot.hasError || !snapshot.hasData) {
-                  return Container(color: Colors.red);
-                }
-
-                final users = snapshot.data!;
-
-                return ListView.builder(
-                  itemCount: users.length,
-                  itemBuilder: (context, index) {
-                    final user = users[index];
-
-                    return ListTile(
-                      leading: Image.network(user.image),
-                      title: Text(user.name),
-                      subtitle: Text(user.id),
-                      horizontalTitleGap: 10,
-                      tileColor: Colors.yellow.shade400,
-                    );
+            child: Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: FutureBuilder(
+                future: UserController.getUsers(getUsersUrl),
+                builder: (context, snapshot) {
+                  if (snapshot.hasError || !snapshot.hasData) {
+                    return Container(color: Colors.red);
                   }
-                );
-              }
-            )
+
+                  final users = snapshot.data!;
+
+                  return ListView.separated(
+                    separatorBuilder: (context, index) {
+                      return const SizedBox(height: 10);
+                    },
+                    itemCount: users.length,
+                    itemBuilder: (context, index) {
+                      final user = users[index];
+
+                      return ListTile(
+                        leading: Image.network(user.profileImage),
+                        title: Text(user.name),
+
+                        subtitle: Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Text(user.id.toString())
+                          ]
+                        )
+                      );
+                    }
+                  );
+                }
+              ),
+            ),
           )
         ]
       )

@@ -1,15 +1,15 @@
 class User {
-  final String id;
+  final int id;
   final String name;
-  final String image;
+  final String profileImage;
 
-  User(this.id, this.name, this.image);
+  User(this.id, this.name, this.profileImage);
 
   factory User.fromJson(Map<String, dynamic> json) {
     return User(
       json['id'],
       json['name'],
-      json['image']
+      json['profileImage']
     );
   }
 
@@ -17,12 +17,12 @@ class User {
     return {
       'id': id,
       'name': name,
-      'image': image
+      'profileImage': profileImage
     };
   }
 
   @override
   String toString() {
-    return 'User{id: $id, name: $name, image: $image}';
+    return 'User{id: $id, name: $name, profileImage: $profileImage}';
   }
 }

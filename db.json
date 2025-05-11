@@ -2,103 +2,103 @@
   "users": [
     {
       "id": 1,
-      "name": "Gustavo Daniel",
-      "profileImage": "https://i.pravatar.cc/150?img=1"
+      "name": "João Silva",
+      "profileImage": "https://ui-avatars.com/api/?name=João+Silva&background=random"
     },
     {
       "id": 2,
-      "name": "Ana Paula",
-      "profileImage": "https://i.pravatar.cc/150?img=2"
+      "name": "Maria Oliveira",
+      "profileImage": "https://ui-avatars.com/api/?name=Maria+Oliveira&background=random"
     },
     {
       "id": 3,
-      "name": "Carlos Eduardo",
-      "profileImage": "https://i.pravatar.cc/150?img=3"
+      "name": "Carlos Pereira",
+      "profileImage": "https://ui-avatars.com/api/?name=Carlos+Pereira&background=random"
     },
     {
       "id": 4,
-      "name": "Fernanda Lima",
-      "profileImage": "https://i.pravatar.cc/150?img=4"
+      "name": "Ana Costa",
+      "profileImage": "https://ui-avatars.com/api/?name=Ana+Costa&background=random"
     },
     {
       "id": 5,
-      "name": "João Vitor",
-      "profileImage": "https://i.pravatar.cc/150?img=5"
+      "name": "Lucas Rocha",
+      "profileImage": "https://ui-avatars.com/api/?name=Lucas+Rocha&background=random"
     },
     {
       "id": 6,
-      "name": "Juliana Costa",
-      "profileImage": "https://i.pravatar.cc/150?img=6"
+      "name": "Fernanda Lima",
+      "profileImage": "https://ui-avatars.com/api/?name=Fernanda+Lima&background=random"
     },
     {
       "id": 7,
-      "name": "Felipe Souza",
-      "profileImage": "https://i.pravatar.cc/150?img=7"
+      "name": "Pedro Martins",
+      "profileImage": "https://ui-avatars.com/api/?name=Pedro+Martins&background=random"
     },
     {
       "id": 8,
-      "name": "Mariana Silva",
-      "profileImage": "https://i.pravatar.cc/150?img=8"
+      "name": "Juliana Souza",
+      "profileImage": "https://ui-avatars.com/api/?name=Juliana+Souza&background=random"
     },
     {
       "id": 9,
-      "name": "Lucas Oliveira",
-      "profileImage": "https://i.pravatar.cc/150?img=9"
+      "name": "Gabriel Almeida",
+      "profileImage": "https://ui-avatars.com/api/?name=Gabriel+Almeida&background=random"
     },
     {
       "id": 10,
-      "name": "Ricardo Alves",
-      "profileImage": "https://i.pravatar.cc/150?img=10"
+      "name": "Patrícia Mendes",
+      "profileImage": "https://ui-avatars.com/api/?name=Patrícia+Mendes&background=random"
     },
     {
       "id": 11,
-      "name": "Patrícia Martins",
-      "profileImage": "https://i.pravatar.cc/150?img=11"
+      "name": "Rafael Santos",
+      "profileImage": "https://ui-avatars.com/api/?name=Rafael+Santos&background=random"
     },
     {
       "id": 12,
-      "name": "Roberto Pereira",
-      "profileImage": "https://i.pravatar.cc/150?img=12"
+      "name": "Camila Barbosa",
+      "profileImage": "https://ui-avatars.com/api/?name=Camila+Barbosa&background=random"
     },
     {
       "id": 13,
-      "name": "Cláudia Rocha",
-      "profileImage": "https://i.pravatar.cc/150?img=13"
+      "name": "Thiago Fernandes",
+      "profileImage": "https://ui-avatars.com/api/?name=Thiago+Fernandes&background=random"
     },
     {
       "id": 14,
-      "name": "Rafael Dias",
-      "profileImage": "https://i.pravatar.cc/150?img=14"
+      "name": "Aline Gomes",
+      "profileImage": "https://ui-avatars.com/api/?name=Aline+Gomes&background=random"
     },
     {
       "id": 15,
-      "name": "Isabela Mendes",
-      "profileImage": "https://i.pravatar.cc/150?img=15"
+      "name": "Vinícius Teixeira",
+      "profileImage": "https://ui-avatars.com/api/?name=Vinícius+Teixeira&background=random"
     },
     {
       "id": 16,
-      "name": "Luís Felipe",
-      "profileImage": "https://i.pravatar.cc/150?img=16"
+      "name": "Letícia Ribeiro",
+      "profileImage": "https://ui-avatars.com/api/?name=Letícia+Ribeiro&background=random"
     },
     {
       "id": 17,
-      "name": "Roberta Fernandes",
-      "profileImage": "https://i.pravatar.cc/150?img=17"
+      "name": "Eduardo Nascimento",
+      "profileImage": "https://ui-avatars.com/api/?name=Eduardo+Nascimento&background=random"
     },
     {
       "id": 18,
-      "name": "Vinícius Costa",
-      "profileImage": "https://i.pravatar.cc/150?img=18"
+      "name": "Bruna Monteiro",
+      "profileImage": "https://ui-avatars.com/api/?name=Bruna+Monteiro&background=random"
     },
     {
       "id": 19,
-      "name": "Tatiane Lima",
-      "profileImage": "https://i.pravatar.cc/150?img=19"
+      "name": "Fábio Cunha",
+      "profileImage": "https://ui-avatars.com/api/?name=Fábio+Cunha&background=random"
     },
     {
       "id": 20,
-      "name": "Guilherme Santos",
-      "profileImage": "https://i.pravatar.cc/150?img=20"
+      "name": "Isabela Freitas",
+      "profileImage": "https://ui-avatars.com/api/?name=Isabela+Freitas&background=random"
     }
   ]
 }

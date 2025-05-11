@@ -11,11 +11,17 @@ class UserController {
     final response = await http.get(Uri.parse(url));
 
     if (response.statusCode == 200) {
-      final resp = jsonDecode(response.body);
+      final List<dynamic> resp = jsonDecode(response.body);
 
       for (final userJson in resp) {
-        final user = User.fromJson(userJson);
-        users.add(user);
+
+        if (userJson is Map<String, dynamic>) {
+          final user = User.fromJson(userJson);
+          users.add(user);
+        }
+        else {
+          throw Exception('formato invalido de usuario');
+        }
       }
     }
 
