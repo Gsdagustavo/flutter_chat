@@ -5,6 +5,7 @@ import 'package:flutter_chat/core/constants/urls.dart';
 import 'package:http/http.dart' as http;
 
 import '../models/user.dart';
+
 class UserProvider with ChangeNotifier {
   final List<User> _users = [];
 
@@ -33,17 +34,14 @@ class UserProvider with ChangeNotifier {
           if (userJson is Map<String, dynamic>) {
             final user = User.fromJson(userJson);
             _users.add(user);
-          }
-          else {
+          } else {
             throw Exception('Invalid user format');
           }
         }
-      }
-      else {
+      } else {
         throw Exception('An error occurred while trying to load users');
       }
-    }
-    catch (e) {
+    } catch (e) {
       debugPrint('Error: $e');
     }
 

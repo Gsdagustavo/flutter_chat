@@ -10,9 +10,7 @@ class ChatApp extends StatelessWidget {
       title: 'Chat',
       debugShowCheckedModeBanner: false,
 
-      routes: {
-        '/':(_) => HomePage()
-      }
+      routes: {'/': (_) => HomePage()},
     );
   }
 }

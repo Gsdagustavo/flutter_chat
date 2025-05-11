@@ -6,19 +6,11 @@ class User {
   User(this.id, this.name, this.profileImage);
 
   factory User.fromJson(Map<String, dynamic> json) {
-    return User(
-      int.parse(json['id']),
-      json['name'],
-      json['profileImage']
-    );
+    return User(int.parse(json['id']), json['name'], json['profileImage']);
   }
 
   Map<String, dynamic> toJson() {
-    return {
-      'id': id,
-      'name': name,
-      'profileImage': profileImage
-    };
+    return {'id': id, 'name': name, 'profileImage': profileImage};
   }
 
   @override
