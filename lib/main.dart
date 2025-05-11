@@ -5,7 +5,7 @@ import 'package:flutter_chat/controller/user_controller.dart';
 
 const String getUsersUrl = 'http://localhost:3000/users';
 
-void main() async {
+void main() {
   runApp(const MyApp());
 }
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       routes: {
-        '/':(_) => const HomePage()
+        '/':(_) => HomePage()
       }
     );
   }
@@ -40,8 +40,20 @@ class HomePage extends StatelessWidget {
               child: FutureBuilder(
                 future: UserController.getUsers(getUsersUrl),
                 builder: (context, snapshot) {
-                  if (snapshot.hasError || !snapshot.hasData) {
-                    return Container(color: Colors.red);
+
+                  /// loading
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return Center(child: CircularProgressIndicator());
+                  }
+
+                  /// error
+                  if (snapshot.hasError) {
+                    return Container(color: Colors.red, child: Text('Erro: ${snapshot.error}'));
+                  }
+
+                  /// no data
+                  if (!snapshot.hasData) {
+                    return Center(child: Text('Nenhum dado encontrado', style: TextStyle(fontSize: 20)));
                   }
 
                   final users = snapshot.data!;
@@ -68,8 +80,8 @@ class HomePage extends StatelessWidget {
                     }
                   );
                 }
-              ),
-            ),
+              )
+            )
           )
         ]
       )
