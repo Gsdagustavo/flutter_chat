@@ -24,81 +24,24 @@
       "id": 5,
       "name": "Lucas Rocha",
       "profileImage": "https://ui-avatars.com/api/?name=Lucas+Rocha&background=random"
-    },
+    }
+  ],
+  "chats": [
     {
-      "id": 6,
-      "name": "Fernanda Lima",
-      "profileImage": "https://ui-avatars.com/api/?name=Fernanda+Lima&background=random"
-    },
-    {
-      "id": 7,
-      "name": "Pedro Martins",
-      "profileImage": "https://ui-avatars.com/api/?name=Pedro+Martins&background=random"
-    },
-    {
-      "id": 8,
-      "name": "Juliana Souza",
-      "profileImage": "https://ui-avatars.com/api/?name=Juliana+Souza&background=random"
-    },
-    {
-      "id": 9,
-      "name": "Gabriel Almeida",
-      "profileImage": "https://ui-avatars.com/api/?name=Gabriel+Almeida&background=random"
-    },
-    {
-      "id": 10,
-      "name": "Patrícia Mendes",
-      "profileImage": "https://ui-avatars.com/api/?name=Patrícia+Mendes&background=random"
-    },
-    {
-      "id": 11,
-      "name": "Rafael Santos",
-      "profileImage": "https://ui-avatars.com/api/?name=Rafael+Santos&background=random"
-    },
-    {
-      "id": 12,
-      "name": "Camila Barbosa",
-      "profileImage": "https://ui-avatars.com/api/?name=Camila+Barbosa&background=random"
-    },
-    {
-      "id": 13,
-      "name": "Thiago Fernandes",
-      "profileImage": "https://ui-avatars.com/api/?name=Thiago+Fernandes&background=random"
-    },
-    {
-      "id": 14,
-      "name": "Aline Gomes",
-      "profileImage": "https://ui-avatars.com/api/?name=Aline+Gomes&background=random"
-    },
-    {
-      "id": 15,
-      "name": "Vinícius Teixeira",
-      "profileImage": "https://ui-avatars.com/api/?name=Vinícius+Teixeira&background=random"
-    },
-    {
-      "id": 16,
-      "name": "Letícia Ribeiro",
-      "profileImage": "https://ui-avatars.com/api/?name=Letícia+Ribeiro&background=random"
-    },
-    {
-      "id": 17,
-      "name": "Eduardo Nascimento",
-      "profileImage": "https://ui-avatars.com/api/?name=Eduardo+Nascimento&background=random"
-    },
-    {
-      "id": 18,
-      "name": "Bruna Monteiro",
-      "profileImage": "https://ui-avatars.com/api/?name=Bruna+Monteiro&background=random"
-    },
-    {
-      "id": 19,
-      "name": "Fábio Cunha",
-      "profileImage": "https://ui-avatars.com/api/?name=Fábio+Cunha&background=random"
-    },
-    {
-      "id": 20,
-      "name": "Isabela Freitas",
-      "profileImage": "https://ui-avatars.com/api/?name=Isabela+Freitas&background=random"
+      "id": 101,
+      "participants": [1, 2],
+      "messages": [
+        {
+          "id": 1001,
+          "senderId": 1,
+          "content": "Oi, tudo bem?"
+        },
+        {
+          "id": 1002,
+          "senderId": 2,
+          "content": "Tudo sim, e você?"
+        }
+      ]
     }
   ]
 }
