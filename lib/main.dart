@@ -1,34 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-
-import 'package:http/http.dart' as http;
-
-import 'model/user.dart';
+import 'package:flutter_chat/controller/user_controller.dart';
 
 const String getUsersUrl = 'http://localhost:3000/users';
 
-
-
-Future<List<User>> getUsers() async {
-  final List<User> users = [];
-
-  final response = await http.get(Uri.parse(getUsersUrl));
-
-  if (response.statusCode == 200) {
-    final resp = jsonDecode(response.body);
-
-    for (final userJson in resp) {
-      final user = User.fromJson(userJson);
-      users.add(user);
-    }
-  }
-
-  return users;
-}
-
 void main() async {
-  await getUsers();
   runApp(const MyApp());
 }
 
@@ -59,7 +36,7 @@ class HomePage extends StatelessWidget {
 
           Expanded(
             child: FutureBuilder(
-              future: getUsers(), 
+              future: UserController.getUsers(getUsersUrl),
               builder: (context, snapshot) {
                 if (snapshot.hasError || !snapshot.hasData) {
                   return Container(color: Colors.red);
@@ -74,6 +51,10 @@ class HomePage extends StatelessWidget {
 
                     return ListTile(
                       leading: Image.network(user.image),
+                      title: Text(user.name),
+                      subtitle: Text(user.id),
+                      horizontalTitleGap: 10,
+                      tileColor: Colors.yellow.shade400,
                     );
                   }
                 );
